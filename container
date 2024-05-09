@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap file</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container"> //iski automatic width 1140px ho jati hai aur margin auto ho jati hai
+	huh
+</div>
+<div class="container-fluid"> //iski width 100% hoti hai aur left right 15px padding lg jati hai
+	huh
+</div>
+
+
+
+
+  
+</body>
+</html>
