@@ -68,3 +68,16 @@ col class always use under row clsss col class has own css padding 15px
     </div>
 </div>
 
+
+//suppose column  me koi content dala hota hai toh vo phone k size tk ate ate sidhi line jesa ho jata hai toh hum hr col me col-md means 
+column-medium likhnge toh medium k size tk ate ate col ka size 100% ho jaye vo row me divide nhi honge equal
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long</div>
+         <div class="col-md">col2 A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long</div>
+          <div class="col-md">col3 A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long</div>
+        	
+     
+    </div>
+</div>
