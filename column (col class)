@@ -81,3 +81,18 @@ column-medium likhnge toh medium k size tk ate ate col ka size 100% ho jaye vo r
      
     </div>
 </div>
+
+
+
+
+//agr hme ek col ki width 6 column ke braber chiye toh hum class lga denge col-6 toh vo 6 col ki width cover kr lega
+//ek row 12 column tk hi rkh payga 13 me vo niche aa jyga
+<div class="container">
+    <div class="row">
+      
+         <div class="col-6">col2 A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long</div>
+          <div class="col-6">col3 A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long</div>
+        	
+     
+    </div>
+</div>
