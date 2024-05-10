@@ -1,0 +1,19 @@
+offset means space chodna   row me 12 col ka grid hota hai hum content or col kitni grid column ko chod k likhna chahte hai vo offset k through hota
+hai suppose offset-md-4  means medium size me 4 column ka space chod k value likhi jaye
+ab isme kya hoga medium screen s sari upper wali class jese large extra large pr yeh offset kam krega but niche wali small extra small inpr kam nhi krega
+agr offset-5; likh du toh yeh offset htega nhi
+offset-xl-*
+offset-lg-*
+offset-md-*
+offset-sm-*
+* means grade from 1 to 12 col 
+
+6 col ki space chod k hello print hoga
+
+<div class="container" style="border: 2px solid black;">
+   <div class="row" style="border:5px solid red;">
+   	<div class="offset-md-6">hello</div>
+   	
+   </div>
+     
+</div>
