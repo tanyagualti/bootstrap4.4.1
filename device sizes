@@ -1,5 +1,6 @@
-extra large >=1200px    ---> 1140px
-  large >=992px            ---> 960px
-  medium >=768px            ---> 720px
-  small >=576px                 ---> 540px
-  extra small < 576px              ---> auto
+                            container size                     classes for fetch this media query
+extra large >=1200px    ---> 1140px                               col-xl 
+  large >=992px            ---> 960px                              col-lg
+  medium >=768px            ---> 720px                              col-md
+  small >=576px                 ---> 540px                           col-sm
+  extra small < 576px              ---> auto                          no claass
