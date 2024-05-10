@@ -1,0 +1,70 @@
+col class always use under row clsss col class has own css padding 15px 
+
+<div class="container">
+	<div class="row"> //if i want to see two columns in equal size  //100%
+		<div class="col">col1</div> //50%
+		<div class="col">col2</div> //50%
+	</div>
+</div>
+
+  <div class="container">
+	<div class="row">
+  //all columns has same width in row 100%  these all columns show in one line
+		<div class="col">col1</div>
+		<div class="col">col2</div>
+		<div class="col">col3</div>
+		<div class="col">col1</div>
+		<div class="col">col2</div>
+		<div class="col">col3</div>
+		<div class="col">col2</div>
+		<div class="col">col3</div>
+	</div>
+
+
+</div>
+
+
+
+
+//but if i want that after 4 col break will add add remaining col show in next line
+  <div class="container">
+	<div class="row">
+		<div class="col">col1</div>
+		<div class="col">col2</div>
+		<div class="col">col3</div>
+        <div class="col">col1</div>
+        <div class="w-100"></div> //w-100 is the class for break iske andr kuch likhna nhi hai iske sath hme col ki padding agr 0px deni hai nhi
+  //de skte content will lost atlist padding:0.1px is must
+		<div class="col">col2</div>
+		<div class="col">col3</div>
+		<div class="col">col2</div>
+		<div class="col">col3</div> 
+	</div>
+
+
+</div>
+
+
+
+
+  //second way to break the col line
+
+  <div class="container">
+    <div class="row row-cols-4">  //jitni col ek row me chiye uska number mention krnge
+        <div class="col"><img src="img/Zonywills.png"></div>
+        <div class="col"><img src="img/Zonywills.png"></div>
+        <div class="col"><img src="img/Zonywills.png"></div>
+        <div class="col"><img src="img/Zonywills.png"></div>
+        <div class="col"><img src="img/Zonywills.png"></div>
+        <div class="col"><img src="img/Zonywills.png"></div>
+         <div class="col"><img src="img/Zonywills.png"></div>
+        <div class="col"><img src="img/Zonywills.png"></div>
+       
+        <div class="col"><img src="img/Branding.png"></div>
+     
+        <div class="col"><img src="img/Branding.png"></div>
+        <div class="col"><img src="img/Branding.png"></div>
+        <div class="col"><img src="img/Branding.png"></div>
+    </div>
+</div>
+
