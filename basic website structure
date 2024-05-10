@@ -7,3 +7,26 @@
        </div>  
        <div class="row" style="background-color:pink;height: 10vh;"></div>
 </div>
+
+
+//second way
+<div class="container" style="border: 2px solid black;">
+    <div class="row" style="background-color: orange;"><h1>Zonywills</h1></div>
+      <div class="row" style="color:white;background-color: green;">
+      	<p>Home | </p>
+      		<p>About | </p>
+      			<p>Contact | </p>
+      				<p>Pricing</p>
+      </div> 
+
+       <div class="row" >
+       	<div class="col-md-9">Sub-Heading</div> //ab agr medium screen pr section shi nhi aa rhe toh col-md s col width 100% ho jati hai -9 islia lagaya for other sizes partition
+       		<div class="col-md-3" style="background-color:blue;">	<p>Home | </p>
+      		<p>About | </p>
+      			<p>Contact | </p>
+      				<p>Pricing</p></div>
+       </div> 
+
+       <div class="row" style="background-color:pink;"><h1>Zonywills@.com</h1></div>
+</div>
+
