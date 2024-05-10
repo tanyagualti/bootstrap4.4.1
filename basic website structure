@@ -1,0 +1,9 @@
+<div class="container" style="border: 2px solid black;">
+    <div class="row" style="background-color: orange;height: 30vh;"></div>
+      <div class="row" style="background-color: green;height: 10vh;"></div> 
+       <div class="row" style="height: 50vh;">
+       	<div class="col-9"></div>
+       		<div class="col-3" style="background-color:blue;"></div>
+       </div>  
+       <div class="row" style="background-color:pink;height: 10vh;"></div>
+</div>
