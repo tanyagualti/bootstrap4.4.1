@@ -1,0 +1,55 @@
+iska use kisi column ko last me place krne k liye aur first me place krne k liye hota hai 
+classes hai order-last and order-first
+<div class="container">
+		<div class="row">
+			<div class="col order-last">col1</div>
+			<div class="col">col2</div>
+			<div class="col order-first">col3</div>
+		</div>
+	</div>
+
+jese bootsrao me size k hisab s break point hai toh hum wese bhi use kr skte hai
+order-xl-first
+order-xl-last
+order-lg-first
+order-lg-first
+and so on
+
+
+//suppose humne medium likha toh medium s uppr wale tk toh order chelaga or niche wali me order ht jayga jo hum change krnge
+<div class="container">
+		<div class="row">
+			<div class="col order-md-last">col1</div>
+			<div class="col">col2</div>
+			<div class="col order-md-first">col3</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+------------------------------------Reordering with grid numbers------------------------------
+//agr hme hr div ko position deni hai instead only first and last then we write order-number
+<div class="container">
+		<div class="row">
+			<div class="col order-4">col1</div>
+			<div class="col order-3">col2</div>
+			<div class="col order-2">col3</div>
+			<div class="col order-1">col4</div>
+		</div>
+	</div>
+
+
+//with screen sizes
+
+<div class="container">
+		<div class="row">
+			<div class="col order-md-4">col1</div>
+			<div class="col order-md-3">col2</div>
+			<div class="col order-md-2">col3</div>
+			<div class="col order-md-1">col4</div>
+		</div>
+	</div>
