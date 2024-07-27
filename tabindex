@@ -1,0 +1,6 @@
+tabindex isliye use krte hai ki tab button use krke navigate kr skte hai
+<p tabindex="1"></p>
+<p tabindex="2"></p>
+<p tabindex="3"></p>
+
+<p tabindex="-1"></p> //-1 me yha tab button s navigate nhi hoga
